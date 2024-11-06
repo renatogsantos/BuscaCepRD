@@ -7,7 +7,7 @@ Este pacote permite realizar buscas de CEP utilizando a API de consulta da Rede 
 Para instalar o pacote, utilize o comando abaixo com o npm:
 
 ```bash
-npm install @renatogsantos/buscaceprd@1.0.2
+npm install @renatogsantos/buscaceprd@1.0.3
 ```
 ## COnfiguração de Autenticação
 

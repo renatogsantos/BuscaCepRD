@@ -1,6 +1,6 @@
 {
   "name": "@renatogsantos/buscaceprd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Busca CEP para uso Rede IDeia",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,9 +12,6 @@
   "license": "ISC",
   "publishConfig": {
     "@renatogsantos:registry": "https://npm.pkg.github.com"
-  },
-  "dependencies": {
-    "ts": "^0.2.2"
   },
   "devDependencies": {
     "typescript": "^4.0.0" 
