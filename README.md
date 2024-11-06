@@ -24,14 +24,13 @@ Substitua `<SEU_TOKEN>` pelo seu token de autenticação do GitHub. Esse token p
 
 Após a instalação e configuração, você poderá importar o pacote em seu projeto e utilizá-lo para realizar buscas de CEP.
 
-```typescript
+```javascript
 import { buscarCep } from '@renatogsantos/buscaceprd';
 
-(async () => {
-    const dadosCep = await buscarCep('01001000');
-    console.log(dadosCep);
-})();
-
+const buscaMeuCep = async (cep) => {
+    const data = await buscarCEP(cep)
+    console.log(data)
+}
 ```
 
 Essa função buscarCep recebe um CEP como parâmetro e retorna os dados de endereço associados a ele.
