@@ -1,9 +1,11 @@
 {
   "name": "@renatogsantos/buscaceprd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Busca CEP para uso Rede IDeia",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,5 +15,8 @@
   },
   "dependencies": {
     "ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0" 
   }
 }
