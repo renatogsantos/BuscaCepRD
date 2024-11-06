@@ -1,0 +1,14 @@
+{
+  "name": "@renatogsantos/buscaceprd",
+  "version": "1.0.0",
+  "description": "Busca CEP para uso Rede IDeia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "@renatogsantos:registry": "https://npm.pkg.github.com"
+  }
+}
