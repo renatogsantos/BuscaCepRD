@@ -10,5 +10,8 @@
   "license": "ISC",
   "publishConfig": {
     "@renatogsantos:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "ts": "^0.2.2"
   }
 }
