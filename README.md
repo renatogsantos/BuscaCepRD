@@ -28,7 +28,7 @@ Após a instalação e configuração, você poderá importar o pacote em seu pr
 import { buscarCep } from '@renatogsantos/buscaceprd';
 
 const buscaMeuCep = async (cep) => {
-    const data = await buscarCEP(cep)
+    const data = await buscarCep(cep)
     console.log(data)
 }
 ```
